@@ -37,7 +37,7 @@ This project focuses on the **Bubble Sort** algorithm. Below are the modes avail
 | **Generation** | Sorts by release generation (Gen 1 → Gen 6). | $O(n^2)$ |
 | **Type** | Sorts based on a custom index (Normal=1 ... Fairy=18). | $O(n^2)$ |
 | **Alphabetical** | Standard string comparison (A-Z). | $O(n^2)$ |
-| **Multi (All-in-One)** | A complex cascading sort: **Evo > Gen > Type > Name**. | $O(n^2)$ |
+| **Multi (All-in-One)** | A complex cascading sort: **Evo > Gen > HP > Type > Name**. | $O(n^2)$ |
 
 > **Note:** While the computational Big O is the same for all modes, the visual "busyness" varies. Sorted groups (like Generations) result in large blocks moving together, while unique values (like HP) cause frequent individual swaps.
 
@@ -86,7 +86,9 @@ During development, we analyzed the behavior of the Bubble Sort algorithm on our
 
 * **Most Active Card:** **Abra**. Despite starting at the very last position (#18), it belongs at the top alphabetically. This forces it to traverse the entire list, generating the highest number of comparisons.
 * **The "Bulldozer":** **Greninja**. When sorting by Evolution (High to Low), Greninja starts at index #1 but is a Stage 3 Pokémon. It swaps with nearly every card until it reaches the end, visually "bulldozing" the list.
-* **Processing Speed:** Without the artificial delay added for visualization, modern devices can sort this 18-item list in approximately ** seconds**.
+* **Processing Speed:** Without the artificial delay added for visualization, modern devices can sort this 18-item list in the the following estimates:
+  
+  ![Estimates](https://i.imgur.com/tGjFgtB.png)
 
 ---
 
@@ -95,7 +97,6 @@ During development, we analyzed the behavior of the Bubble Sort algorithm on our
 * **Development:** The Yagballs Team (Group 1)
 * **Assets:** Pokémon sprites and audio themes are property of Nintendo/Game Freak. Used for educational purposes.
 * **Background Art:** https://x.com/Neos_ex/status/1570925324199956482.
-
 ---
 
 > *"Gotta Sort 'Em All!"*

@@ -101,5 +101,7 @@ During development, we analyzed the behavior of the Bubble Sort algorithm on our
 
 > *"Gotta Sort 'Em All!"*
 ---
-
+*Submitted to: Polytechnic University of the Philippines - Quezon City Branch*
+---
 *Disclaimer: This README.md file was generated with the assistance of AI (Google Gemini) to efficiently summarize our program's logic and architecture, allowing the team to focus on other tasks and lessen workload.*
+---
